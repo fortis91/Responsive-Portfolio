@@ -1,0 +1,21 @@
+footer {
+    /* background-color: blue; */
+    background-color: #2B2D42;
+    text-align: center;
+    height: 40px;
+    padding-top: 15px;
+    font-size: 12px;
+    
+    /* border-top: 4px solid darkgreen; */
+    border-top: 5px solid #8D99AE;
+
+    position: fixed;
+    /* height: 50px; */
+    bottom: 0;
+    width: 100%;
+    /* text-align: center; */
+
+    /* background-color:red; */
+    /* background-color: navajowhite; */
+    /* padding: 10px */
+}

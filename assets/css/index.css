@@ -1,0 +1,257 @@
+section {
+    /* background-color: pink; */
+    background-color: #fff;
+    /* background-color: green; */
+    width: 960px;
+    /* margin: 0 auto; */
+    margin: 20px auto 60px auto;
+    padding: 10px;
+    box-sizing: border-box;
+
+    /* padding: 20px */
+    padding: 20px 20px 10px 20px; 
+
+    padding-top: 20px;
+}
+
+
+section h1 {
+    font-size: 2em;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid brown;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+
+    color: #8D99AE;
+    /* padding: 0 px; */
+
+    border-color: #dddddd;
+    padding-bottom: 20px;
+}
+
+img {
+    height: 200px;
+    float: left;
+    /* margin: 0 10px 10px 0; */
+}
+
+section img {
+    padding: 10px 15px 15px 0px;
+    padding: 10px 15px 15px 0px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* input[type=text] { */
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+ } 
+
+ input[type=text]:focus {
+    /* background-color: yellow; */
+    border-color: #8D99AE;
+  }
+
+ textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    
+    margin: 8px 0 0px 0;
+
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+
+.button {
+    background-color: #EF233C;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    width: 70px;
+    margin: 0px 0px 5px 0px;
+
+    outline: #8D99AE;
+}
+
+/* .button:focus {
+    background-color: #8D99AE;
+} */
+
+.portfolio {
+    width: 300px;
+    height: 300px;
+    /* background-image: url(../images/pexels-photo-1374551.jpeg); */
+    background-color: #fff;
+    background-size: cover;
+    position: relative;
+    margin: 1em;
+    float: left;
+
+    margin: 2em 3em 2em 0em;
+}
+
+#portfolio-image-1 {
+    background-image: url(../images/pexels-photo-1374551.jpeg);
+}
+
+#portfolio-image-2 {
+    background-image: url(../images/pexels-photo-1437629.jpeg);
+}
+
+#portfolio-image-3 {
+    background-image: url(../images/pexels-photo-533248.jpeg);
+}
+
+
+#portfolio-image-4 {
+    background-image: url(../images/pexels-photo-290348.jpeg);
+}
+
+#portfolio-image-5 {
+    background-image: url(../images/ice-cream-oreo-frappuccino-waffles-60641.jpeg);
+}
+
+.portfolio h4 {
+    position: absolute;
+    bottom: 0;
+    background-color: #8D99AE;
+    color: #fff;
+    width: 100%;
+    text-align-last: center;
+    /* padding: .25%; */
+    font-size: 2em;
+    margin-bottom: .25em;
+}
+
+
+
+.portfolio h2 {
+    position: absolute;
+    bottom: 0;
+    background-color: #8D99AE;
+    color: #fff;
+    width: 100%;
+    text-align-last: center;
+    /* padding: .25%; */
+    /* font-size: 1.5em; */
+    margin-bottom: .25em;
+
+    padding: 10px 0 10px 0px; 
+}
+
+
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 960px) {
+  /* The body's bg color will be #333 */
+  body {
+    background-color: #333;
+  }
+
+  #main {
+    background-color: lightgoldenrodyellow;
+ 
+  }
+
+
+  section {
+    /* background-color: pink; */
+    background-color: #fff;
+    /* background-color: green; */
+    width: 640px;
+    /* margin: 0 auto; */
+    margin: 20px auto 60px auto;
+    padding: 10px;
+    box-sizing: border-box;
+
+    /* padding: 20px */
+    padding: 20px 20px 10px 20px; 
+
+    padding-top: 20px;
+}
+  
+  /* The wrapper's width will be 600px */
+  .wrapper {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* The body's bg color will be #333 */
+  body {
+    background-color: #333;
+  }
+
+  header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    height: 50px;
+
+    color: #fff;
+}
+
+header div {
+    background-color: #fff;
+    width: 640px;
+    margin: 0 auto;
+    height: 50px;
+    
+    float: left;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    background-color: #2B2D42;
+    height: 50px;
+    padding: 0;
+    box-sizing: border-box;
+
+    padding: 5px 20px 0px 20px;
+    font-family: 'Georgia', Times, Times 'New Roman', 'serif';
+}
+
+  nav {
+    float: right;
+    padding-top: 15px;
+  }
+
+  nav a {
+    padding-left: 15px;
+    text-decoration: none;
+
+    color: #EF233C;
+  }
+
+  
+  #main {
+    background-color: lightpink;
+ 
+  }
+
+  
+  /* The wrapper's width will be 600px */
+  .wrapper {
+    width: 640px;
+  }
+}
