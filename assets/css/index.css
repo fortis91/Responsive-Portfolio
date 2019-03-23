@@ -158,48 +158,29 @@ input {
 
 
 
-/*
-  These rules take effect when the browser's width
-  is either 768px or less.
-*/
-@media screen and (max-width: 960px) {
-  /* The body's bg color will be #333 */
-  body {
-    background-color: #333;
-  }
-
-  #main {
-    background-color: lightgoldenrodyellow;
- 
-  }
-
-
-  section {
-    /* background-color: pink; */
-    background-color: #fff;
-    /* background-color: green; */
-    width: 640px;
-    /* margin: 0 auto; */
-    margin: 20px auto 60px auto;
-    padding: 10px;
-    box-sizing: border-box;
-
-    /* padding: 20px */
-    padding: 20px 20px 10px 20px; 
-
-    padding-top: 20px;
-}
-  
-  /* The wrapper's width will be 600px */
-  .wrapper {
-    width: 600px;
-  }
-}
-
 @media screen and (max-width: 640px) {
-  /* The body's bg color will be #333 */
+
+ section {
+  width: 100%;
+  /* margin-top: 1em; */
+  }
+  
+  img {
+    width: 100%;
+    height: inherit;
+    height: initial;
+  }
+
+}
+
+
+
+/* @media only screen and (max-width: 640px) {
   body {
     background-color: #333;
+
+    background-color: lightpink;
+
   }
 
   header {
@@ -208,18 +189,20 @@ input {
     height: 50px;
 
     color: #fff;
-}
+  }
 
-header div {
+  header div {
     background-color: #fff;
     width: 640px;
     margin: 0 auto;
     height: 50px;
     
     float: left;
-}
 
-header h1 {
+    width: 100%;
+  }
+
+  header h1 {
     float: left;
     margin: 0;
     background-color: #2B2D42;
@@ -228,30 +211,20 @@ header h1 {
     box-sizing: border-box;
 
     padding: 5px 20px 0px 20px;
-    font-family: 'Georgia', Times, Times 'New Roman', 'serif';
-}
+  }
+
+  section {
+    background-color: #fff;
+    width: 600px;
+  }
 
   nav {
     float: right;
     padding-top: 15px;
   }
 
-  nav a {
-    padding-left: 15px;
-    text-decoration: none;
-
-    color: #EF233C;
-  }
-
-  
-  #main {
-    background-color: lightpink;
- 
-  }
-
-  
-  /* The wrapper's width will be 600px */
+   
   .wrapper {
     width: 640px;
   }
-}
+} */
