@@ -157,9 +157,9 @@ input {
 }
 
 
-@media screen and (max-width: 980px) {
+@media screen and (min-width:769px) and (max-width: 980px) {
 
-  /* section {
+  section {
     width: 100%;
     width: 700px;
     margin-top: 2em;
@@ -174,20 +174,19 @@ input {
   }
 
   .portfolio {
-
-
-    width: 100%;
+    width: 250px;
+    height: 250px;
   }
 
   .portfolio h2 {
   
-  } */
+  }
 
   
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width:641px) and (max-width: 768px) {
 
   section {
     width: 100%;
@@ -206,13 +205,14 @@ input {
   }
 
   section img {
-    padding: 0 auto;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
   }
 
   .portfolio {
-
-
-    width: 100%;
+    width: 250px;
+    height: 250px;
   }
 
   .portfolio h2 {
@@ -241,22 +241,13 @@ input {
   }
 
   section img {
-    padding: 0 auto;
+
+
   }
 
   .portfolio {
-    /* width: 300px;
-    height: 300px;
-    background-color: #fff;
-    background-size: cover;
-    position: relative;
-    margin: 1em;
-    float: left;
-
-    margin: 2em 3em 2em 0em; */
-
-    /* width: 100%; */
-    /* height: initial; */
+    width: 500px;
+    height: 500px;
   }
 
   .portfolio h2 {
